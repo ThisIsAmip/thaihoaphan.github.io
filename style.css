@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!! Header Section !!!!!!!!!!!!!!!!!!!!!!!!*/
+.header {
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 15px;
+  background-color: #b69f72;
+}
+
+.header-content {
+  padding-left: 35px;
+  padding-right: 15px;
+  margin: 0px 8px;
+  background-color: rgb(211 177 116);
+  width: 90px;
+  height: 30px;
+  padding-top: 15px;
+  border: 2px solid #d7bb86;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.header-content:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #817153;
+  cursor: pointer;
+  color: rgb(109, 92, 60);
+  transition: 0.3s;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!! Body Section !!!!!!!!!!!!!!!!!!!!!!!!*/
+.introduction {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #e5cc9b;
+}
+.itrd-picture img {
+  width: 500px;
+}
+.itrd-picture {
+  width: 500px;
+  height: 630px;
+  padding-bottom: 36px;
+}
+
+.itrd-details {
+  font-size: 30px;
+  background-color: wheat;
+  border: 7px solid #e5cc9b;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.details-text {
+  padding-left: 40px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!! Footer Section !!!!!!!!!!!!!!!!!!!!!!!!*/
+.first-ftr {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.box-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.first-ftr-box {
+  padding: 20px 20px;
+  width: 360px;
+  height: 205px;
+}
+
+.first-ftr-box {
+  background-color: beige;
+}
+.second-ftr {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 35px;
+  font-size: 20px;
+  background-color: black;
+}
+
+.second-ftr-box {
+  width: 610px;
+  display: inline-flex;
+}
+
+.ftr-button {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 35px;
+  color: white;
+}
+
+.second-ftr-box p {
+  padding-top: 15px;
+  color: white;
+}
+
+.second-ftr-box span {
+  color: cyan;
+}
